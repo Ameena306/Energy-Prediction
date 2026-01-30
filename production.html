@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>P2P Energy Trading</title>
+  <link rel="stylesheet" href="productionstyle.css" />
+</head>
+<body>
+  <div class="container">
+
+    <h1 class="title">P2P Energy Trading</h1>
+
+    <!-- Top Cards -->
+    <div class="cards">
+      <div class="card">
+        <h2>Sell Energy</h2>
+        <p class="subtext">Available: <strong>5.2 kWh</strong></p>
+        <button class="btn btn-primary">Offer Energy</button>
+        <p class="price">Set Price: $0.12 / kWh</p>
+      </div>
+
+      <div class="card">
+        <h2>Buy Energy</h2>
+        <p class="subtext">Needed: <strong>3.5 kWh</strong></p>
+        <button class="btn btn-secondary">Request Energy</button>
+        <p class="price">Bid Price: $0.15 / kWh</p>
+      </div>
+    </div>
+
+    <!-- Marketplace -->
+    <h2 class="section-title">Trade Marketplace</h2>
+
+    <div class="table-wrapper">
+      <table>
+        <thead>
+          <tr>
+            <th>User</th>
+            <th>Type</th>
+            <th>Amount</th>
+            <th>Price</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>User123</td>
+            <td>Sell</td>
+            <td>2.0 kWh</td>
+            <td>$0.10 / kWh</td>
+            <td>
+              <button class="btn btn-secondary btn-small">Buy</button>
+            </td>
+          </tr>
+
+          <tr>
+            <td>GreenHome</td>
+            <td>Buy</td>
+            <td>1.5 kWh</td>
+            <td>$0.14 / kWh</td>
+            <td>
+              <button class="btn btn-primary btn-small">Sell</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+  </div>
+</body>
+</html>
